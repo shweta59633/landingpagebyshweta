@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: auto;
+    width: 80vw;
+    margin: auto;
+    cursor: pointer;
+}
+.container{
+    height: 80vh;
+    width: 100%;
+    background-image: url(frontendproject/headerorange.jpg);
+    background-position:bottom;
+    object-fit: cover;
+    justify-content: center;
+    background-size:100%;
+    text-decoration: none;
+}
+.logo{
+    padding-top : 3%;
+    padding-left: 3%;
+    font-family: serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+.logo:hover{
+    transition:2s ease-in-out;
+}
+.arrow{
+    color: white;
+    text-align: center;
+    font-size:40px;
+}
+.nav-list{
+    display: inline-flex;
+    list-style-type: none;
+    padding-left:60%;
+        }
+  .nav-list li{
+      justify-content:center;
+      text-align:center;
+      padding-left:12px;
+      font-weight: 300;
+      font-family: sans-serif;
+  }  
+  
+  .creative{
+      text-align: center;
+      font-family: cursive;
+      padding-top: 5%;
+      font-weight: 700;
+      font-size: 27px;;
+      
+  }
+/*   CONTENT-1   CONTENT-1         */
+.content-1{
+    margin: 0%;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    
+    }
+.box1{    
+    height: 60vh;
+    width: 50%;    
+    overflow: hidden;
+}
+.box1 h3{
+    text-align: center;
+       padding:7%;
+       font-size: 30px;
+       font-family: Georgia, Times, 'Times New Roman', serif; 
+}
+.text-1{
+    text-align: center;
+    padding:20px 50px;
+}
+.box2{
+    height:60vh;
+    width: 50%;
+    overflow: hidden;
+}
+.box2 img{
+    overflow: hidden;
+    height:60vh;
+    width: 100%;
+}
+.content-2{
+    
+    height: 60vh;
+    width: 100%;
+    margin: 0%;
+        display: flex;
+}
+.content-3{
+    height: 60vh;
+    width: 100%;
+    margin: 0%;
+    display: flex;
+}
+.box3{
+    height: 60vh;
+    width: 50%;
+    background-image: url(frontendproject/fruit.jpg);
+    object-fit: cover;
+    background-position:top left;
+    object-fit: cover;
+    justify-content: center;
+    background-size: cover;
+
+}
+.box4{
+    height: 60vh;
+    width: 50%;
+    background-image: url(frontendproject/orangefruit.jpg);   
+    object-fit: cover;
+    background-position:top left;
+    object-fit: cover;
+    justify-content: center;
+    background-size: cover;
+}
+.content-4{
+    height:90vh;
+    width: 100%;
+    background-color:white;
+    margin: 0%;
+}
+.client{
+    text-align: center;
+    padding-top:3%; 
+    padding-bottom: 3%; 
+    font-size: 22px;
+    letter-spacing: 1px;  
+    text-transform: uppercase;
+}
+.flexboxes{
+    display: flex;
+    justify-content: space-between;    
+}
+.class1{
+    height: 65vh;
+    margin: auto; 
+       
+}
+.circleimg{
+    height: 55px;
+    margin-left:39%;
+    margin-top: 8%;
+       }
+.circleimg img{
+    height: 55px;
+    width:55px;
+        border-radius: 50%;    
+    margin-left:auto;
+}
+.textarea{
+    overflow: hidden;
+    padding-top:30%;
+    text-align: center;
+    justify-content: center;
+    padding-left:6%;
+    padding-right: 6%;
+}
+.class2{
+    height: 65vh;margin: auto; 
+      
+}
+.class3{
+    height: 65vh;
+    margin: auto;  
+    
+     }
+
+.imagebox{
+    display: flex;
+    height:40%;
+    width: 100%;
+    border-top: 1px solid black;
+    }
+.imagebox .image1{
+    height: 100%;
+    width: 25%;
+}
+.imagebox .image1 img{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+/*----------------------------- footer--------------------*/
+.footer{
+    background-color: rgb(74, 183, 183);
+    height:40vh;
+    width: 100%;
+}
+.brand{
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+    padding-top: 7%;
+}
+.footer-list{
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 38%;
+}
+.footer-list ul{
+    display: flex;
+    text-align: center;  
+}
+.footer-list ul li{
+    text-align: center;
+    list-style-type: none;
+    font-size: 19px;
+    padding-left: 14px;
+}
+.footer-icons{
+    text-align: center;
+    padding-top: 1%;
+    padding-left:42%;
+}
+.footer-icons ul{
+    display: flex;
+    text-align: center;  
+}
+.footer-icons ul li{
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 14px;   
+ }
+
+ /*------responsive--------------- */
+ @media screen and (min-width: 300px) and (max-width:765px){
+     .container{
+         overflow: hidden;
+         height: 60%;
+         width: 100%;
+         background-repeat: no-repeat;
+     }
+     .nav-list{
+         font-size: 12px;
+         visibility: hidden;
+     }
+     .nav-list ul li{
+         visibility: hidden;
+     }
+     h3{
+         font-weight: 100;
+     }
+     .text-1{
+         overflow: hidden;
+         font-size: 15px;
+         padding-top: 2%;
+       
+         padding-right:3%;
+         padding-left: 1%;
+     }
+     .content-1 , .content-2 {
+        height: 40vh;
+        width: 100%;
+        margin: 0%;
+        display: flex;
+     }
+     .box2{
+        height:40vh;
+        width: 50%;
+        overflow: hidden;
+    }
+    .box2 img{
+        overflow: hidden;
+        height:40vh;
+        width: 100%;
+    }
+    .content-3{
+        height: 40vh;
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    }
+    .box3 , .box4{
+        height: 40vh;
+        width: 100%;
+    }
+        
+    .circleimg{
+        height: 55px;
+        margin-left:39%;
+        margin-top: 8%;
+           }
+    .circleimg img{
+        height: 55px;
+        width:55px;
+       border-radius: 50%;    
+        margin-left:auto;
+    }
+    .class1 , .class2 , .class3{
+        height:45vh;
+        margin: auto; 
+           
+    }
+    .textarea{
+        font-size: 18px;
+    }
+     .footer{
+         height: 30%;
+        width: 100%;
+        }   
+
+     .footer-list{
+         padding-left: 29%;
+         text-align: center;
+     }
+     .footer-icons{
+         padding-left: 39%;
+     }
+ }
+ @media screen and (min-width: 766px) and (max-width:1200px){
+    .container{
+        height: 80vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        
+        background-position:bottom;
+        object-fit: cover;
+        justify-content: center;
+        background-size:100%;
+        text-decoration: none;
+    }
+    .logo{
+        padding-top : 3%;
+        padding-left: 3%;
+        font-family: serif;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        cursor: pointer;
+        
+    }
+ }
